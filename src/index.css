@@ -1,13 +1,98 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Karla', sans-serif;
+}
+nav{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+nav > img {
+  height: 100%;
+  margin-right: 6px;
+}
+.nav--title{
+  margin-left: 10px;
+  margin-right: auto;
+}
+.nav--project{
+  font-weight:500;
+  margin-right: 40px;
+}
+main{
+  padding: 45px;
+}
+.form{
+  display: grid;
+  grid-template: 50px 50px 50px/ 1fr 1fr; 
+  gap:17px;
+  width: 850px;
+  margin: 50px auto;
+}
+.form--input{
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 10px;
+  color: #0D0D0D;
+}
+.form--button {
+  grid-column: 1/-1;
+  font-family: "Karla", sans-serif;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.meme {
+  position: relative;
+  margin: auto;
+  width: 850px;
+  display: flex;
+  justify-content: center;
+}
+
+.meme--image{
+  max-width: 100%;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
