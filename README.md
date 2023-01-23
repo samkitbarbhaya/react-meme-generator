@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This project was created to implement useState and useEffect hooks. I have created a meme-generator which fetches meme images from the following api: "https://api.imgflip.com/get_memes"
+It also has two input bars which are added to the top and bottom part of the image. You can find the project in this link: https://exquisite-twilight-f74261.netlify.app/
 
 ## Available Scripts
 
